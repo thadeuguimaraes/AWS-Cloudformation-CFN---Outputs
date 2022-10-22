@@ -3,6 +3,7 @@
 Nesse projeto foi desenvolvido um template script no foramato YML para criar sessoẽs de prática de saídas nas stacks usandp o Cloudformation da AWS.
 
  • Outputs (saida)
+ 
       A seção de saídas declara valores de saída que podemos
       mportar para outras stacks (para criar referências de pilha transversal)
       Ao usar stacks aninhadas, podemos ver como as saidas de uma stack aninhada são
@@ -14,6 +15,7 @@ Nesse projeto foi desenvolvido um template script no foramato YML para criar ses
 Outputs 
 
 • Export (Optional) 
+
       As exportações contêm saída de recursos usados para referência de stack cruzada.
       Para cada conta da AWS, o nome de exportação deve ser único na região.Como deve ser único,  podemos usar o nome de exportação como
       "AWS :: StackName" -ExportName
@@ -26,7 +28,8 @@ Outputs
       Podemos usar saídas em combinação com condições.Veremos isso em nossas sessões de prática para saídas.
 ========================================================================================================
 
-Outputs Prática
+# Outputs Prática
+
       Etapa 01: Crie uma saída muito básica usando a intrinsic funtion FN :: Ref - InstanceId.
       Etapa 02: usaremos a intrinsic function FN :: GetAtt para criar saídas.
       Etapa 03: Usaremos a intrinsic function FN :: Sub intrínseca para criar saídas e usaremos o Pseudo Parâmetro AWS :: StackName.Além disso,
