@@ -2,8 +2,8 @@
 
 Nesse projeto foi desenvolvido um template script no foramato YML para criar sessoẽs de prática de saídas nas stacks usandp o Cloudformation da AWS.
 
- • Outputs (saida)
- 
+ # Outputs (saida)
+
       A seção de saídas declara valores de saída que podemos
       mportar para outras stacks (para criar referências de pilha transversal)
       Ao usar stacks aninhadas, podemos ver como as saidas de uma stack aninhada são
@@ -12,9 +12,9 @@ Nesse projeto foi desenvolvido um template script no foramato YML para criar ses
       Podemos declarar no máximo 60 saídas em um modelo CFN.
 ====================================================================================
 
-Outputs 
+# Outputs 
 
-• Export (Optional) 
+# Export (Optional) 
 
       As exportações contêm saída de recursos usados para referência de stack cruzada.
       Para cada conta da AWS, o nome de exportação deve ser único na região.Como deve ser único,  podemos usar o nome de exportação como
