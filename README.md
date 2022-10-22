@@ -2,7 +2,7 @@
 
 Nesse projeto foi desenvolvido um template script no foramato YML para criar sessoẽs de prática de saídas nas stacks usandp o Cloudformation da AWS.
 
-Outputs (saida)
+ • Outputs (saida)
       A seção de saídas declara valores de saída que podemos
       mportar para outras stacks (para criar referências de pilha transversal)
       Ao usar stacks aninhadas, podemos ver como as saidas de uma stack aninhada são
